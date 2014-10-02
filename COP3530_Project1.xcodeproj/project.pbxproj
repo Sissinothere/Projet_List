@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D2BF54AD19DD8D890060A763 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2BF54AC19DD8D890060A763 /* main.cpp */; };
 		D2BF54AF19DD8D890060A763 /* COP3530_Project1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2BF54AE19DD8D890060A763 /* COP3530_Project1.1 */; };
+		D2BF54B619DD8DA10060A763 /* CDAL.h in Sources */ = {isa = PBXBuildFile; fileRef = D2BF54B519DD8DA10060A763 /* CDAL.h */; };
+		D2BF54B819DDA1C70060A763 /* SDAL2_part2.h in Sources */ = {isa = PBXBuildFile; fileRef = D2BF54B719DDA1C70060A763 /* SDAL2_part2.h */; };
+		D2BF54BA19DDA2480060A763 /* SSLL_part3.h in Sources */ = {isa = PBXBuildFile; fileRef = D2BF54B919DDA2480060A763 /* SSLL_part3.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,9 @@
 		D2BF54A919DD8D890060A763 /* COP3530_Project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COP3530_Project1; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BF54AC19DD8D890060A763 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D2BF54AE19DD8D890060A763 /* COP3530_Project1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = COP3530_Project1.1; sourceTree = "<group>"; };
+		D2BF54B519DD8DA10060A763 /* CDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAL.h; sourceTree = "<group>"; };
+		D2BF54B719DDA1C70060A763 /* SDAL2_part2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAL2_part2.h; sourceTree = "<group>"; };
+		D2BF54B919DDA2480060A763 /* SSLL_part3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLL_part3.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				D2BF54AC19DD8D890060A763 /* main.cpp */,
+				D2BF54B519DD8DA10060A763 /* CDAL.h */,
+				D2BF54B719DDA1C70060A763 /* SDAL2_part2.h */,
+				D2BF54B919DDA2480060A763 /* SSLL_part3.h */,
 				D2BF54AE19DD8D890060A763 /* COP3530_Project1.1 */,
 			);
 			path = COP3530_Project1;
@@ -118,6 +127,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BF54AD19DD8D890060A763 /* main.cpp in Sources */,
+				D2BF54B819DDA1C70060A763 /* SDAL2_part2.h in Sources */,
+				D2BF54BA19DDA2480060A763 /* SSLL_part3.h in Sources */,
+				D2BF54B619DD8DA10060A763 /* CDAL.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
